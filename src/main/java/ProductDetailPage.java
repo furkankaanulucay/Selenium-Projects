@@ -15,8 +15,8 @@ public class ProductDetailPage extends BasePage {
 
     public void addToCard() {
         try {
-            Thread.sleep(2000);
             click(addToCardButtonLocator);
+//            Thread.sleep(7000);
         }
         catch (Exception e){
 

@@ -24,13 +24,14 @@ public class HomePage extends BasePage {
 
     public void goToCard() {
         try {
+            Thread.sleep(3000);
             click(cardButtonLocator);
             Select select = new Select (driver.findElement(By.id("quantitySelect0-key-0")));
             Thread.sleep(3000);
             select.selectByIndex(1);
             Thread.sleep(5000);
             click(removeProduct);
-            Thread.sleep(2500);
+            Thread.sleep(3000);
         }
         catch(Exception e){
 

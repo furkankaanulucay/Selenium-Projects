@@ -21,7 +21,7 @@ public class ProductsPage extends BasePage {
     public void selectProduct(int i){
         try {
             click(moreBoxButton);
-            Thread.sleep(5000);
+            Thread.sleep(3000);
             getAllProducts().get(i).click();
         }
         catch (Exception e) {

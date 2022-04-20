@@ -20,6 +20,6 @@ public class BaseTest {
 
     @AfterAll // test bittikten sonra çalışacak methodumuz
     public void tearDown(){
-        driver.quit();
+        //driver.quit();
     }
 }

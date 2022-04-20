@@ -14,8 +14,8 @@ public class CardPage extends BasePage {
 
     }
 
-    public boolean checkIfProductAdded() {
-        return getProducts().size() > 0;
+    public boolean checkIfProductDeleted() {
+        return getProducts().size() < 1;
     }
 
     public List<WebElement> getProducts(){
