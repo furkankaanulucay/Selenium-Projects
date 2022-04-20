@@ -7,5 +7,5 @@ Requirements\
 How to Start Projects?\
 "mvn clean test" for java project.
   
-![Alt Text](https://github.com/furkankaanulucay/selenium-examples/blob/main/java-selenium.gif)
+![Alt Text](https://github.com/furkankaanulucay/Selenium-Projects/blob/main/java-selenium.gif)
  
